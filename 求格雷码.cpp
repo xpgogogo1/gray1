@@ -7,6 +7,7 @@ void generategray(int n, vector<string>&gray)
 	{
 		gray.push_back("0");
 		gray.push_back("1");
+		return;
 	
 	}
 	generategray(n - 1, gray);
